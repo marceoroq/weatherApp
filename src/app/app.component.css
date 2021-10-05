@@ -1,0 +1,80 @@
+.flex-container {
+    padding: 3rem;
+    display: flex;
+    flex-flow: column;
+}
+
+p-progressSpinner {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+}
+
+#city {
+    font-size: 1.5rem;
+}
+
+.temperature {
+    display: inline;
+    font-size: clamp(5rem, 20vw, 9rem);
+    font-weight: 200;
+    margin: 0.5rem;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-weather {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#weather-description {
+    display: flex;
+    align-items: center;
+}
+
+#weather-description > p {
+    display: inline;
+    font-size: 1rem;
+}
+
+img, span, .temperature {
+    vertical-align: middle;
+}
+
+table {
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: #fbfbfe2b;
+}
+
+tr {
+    margin-bottom: 0.5rem;
+}
+
+.flex-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 25rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: #fbfbfe2b;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: space-evenly;
+    width: 11rem;
+}
+
+#last-update {
+    font-size: 0.7rem;
+}
